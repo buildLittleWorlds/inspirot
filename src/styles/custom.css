@@ -1,0 +1,49 @@
+/* Custom styles for Mermaid diagrams */
+.mermaid {
+    background-color: #0d1117;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  /* Ensure all text elements are visible */
+  .mermaid .actor,
+  .mermaid .messageText,
+  .mermaid .noteText,
+  .mermaid text,
+  .mermaid .labelText,
+  .mermaid .loopText,
+  .mermaid .loopText > tspan {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+  }
+  
+  /* Style the lines and arrows */
+  .mermaid .messageLine0,
+  .mermaid .messageLine1,
+  .mermaid .actor-line,
+  .mermaid line {
+    stroke: #ffffff !important;
+  }
+  
+  /* Style actor boxes */
+  .mermaid .actor {
+    fill: #5de4c7 !important;
+    stroke: #61afef !important;
+  }
+  
+  /* Add a border for better separation */
+  .mermaid svg {
+    border: 1px solid #61afef;
+  }
+  
+  /* Improve visibility of note boxes */
+  .mermaid .note {
+    fill: #cafbff !important;
+    stroke: #61afef !important;
+  }
+  
+  /* Ensure text in note boxes is visible */
+  .mermaid .noteText {
+    fill: #0d1117 !important;
+    color: #0d1117 !important;
+  }
